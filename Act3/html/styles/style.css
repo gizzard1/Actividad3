@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(rgb(28, 211, 59), rgb(14, 126, 70));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    color: gray;
+    text-align: center;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:lighter;
+    text-align: center;
+}
+.bgr1 {
+    background-color: rgb(8, 8, 8);
+    margin: 0px;
+}
+.navegador1{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 20px;
+}
+.navegador1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(199, 199, 199);
+    font-weight: lighter;
+    padding: 5px 50px;
+}
+.navegador1 a:hover{
+    background-color: rgb(49, 68, 109);
+    color: aliceblue;
+}
+.sombra1 {
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.45);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.45);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.45);
+    background-color: var(--blanco);
+    padding: 2rem;
+}
+.bgr2 {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+.navegador2{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100px;
+    height: 400px;
+}
+.navegador2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    background-color: rgb(138, 211, 28);
+    font-weight: lighter;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navegador2 a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(155, 154, 154);
+    border-radius: 10px;
+}
+.sombra2{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.45);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.45);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.45);
+    background-color: var(--blanco);
+    padding: 2rem;
+}
